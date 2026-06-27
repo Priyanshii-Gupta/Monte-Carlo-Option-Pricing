@@ -7,13 +7,11 @@ Overall, this project shows how probability, statistics, and random simulation c
 **Workflow**
 ```mermaid
 graph TD;
-Download historical stock prices using Yahoo Finance-->Calculate daily logarithmic returns;
-Calculate daily logarithmic returns-->Compute annualized volatility;
-Compute annualized volatility-->Generate 10,000 random values from a standard normal distribution;
-Generate 10,000 random values from a standard normal distribution-->Simulate future stock prices using Geometric Brownian Motion;
-Simulate future stock prices using Geometric Brownian Motion --> Calculate the payoff of a European Call Option
-Calculate the payoff of a European Call Option --> Average all simulated payoffs
-Average all simulated payoffs --> Discount the average payoff to its present value
-Discount the average payoff to its present value --> Display the estimated European Call Option Premium
-```
-
+    A[Download historical stock prices using Yahoo Finance] --> B[Calculate daily logarithmic returns]
+    B --> C[Compute annualized volatility]
+    C --> D[Generate 10,000 random values from a standard normal distribution]
+    D --> E[Simulate future stock prices using Geometric Brownian Motion]
+    E --> F[Calculate the payoff of a European Call Option]
+    F --> G[Average all simulated payoffs]
+    G --> H[Discount the average payoff to its present value]
+    H --> I[Display the estimated European Call Option Premium]
