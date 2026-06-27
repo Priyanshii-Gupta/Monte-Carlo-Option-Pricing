@@ -15,6 +15,7 @@ graph TD;
     F --> G[Average all simulated payoffs]
     G --> H[Discount the average payoff to its present value]
     H --> I[Display the estimated European Call Option Premium]
+```
 
 **What are Options??**
 An option is a financial contract that gives the buyer the right, but not the obligation, to buy or sell an asset at a predetermined price before or on a specified date.
