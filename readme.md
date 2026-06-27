@@ -17,19 +17,19 @@ graph TD;
     H --> I[Display the estimated European Call Option Premium]
 ```
 
-**What are Options??**
+## What are Options?
 An option is a financial contract that gives the buyer the right, but not the obligation, to buy or sell an asset at a predetermined price before or on a specified date.
 It is a type of derivative.
 
-** Decoding symbols**
+## Decoding symbols
 | Symbol | Meaning |
 |---------|----------|
-| \(S_0\) | Current stock price |
-| \(S_T\) | Simulated future stock price |
-| \(r\) | Risk-free interest rate |
-| \(\sigma\) | Annualized volatility |
-| \(T\) | Time to expiry |
-| \(Z\) | Random variable from N(0,1) |
+| \S0\ | Current stock price |
+| \ST\ | Simulated future stock price |
+| \r\ | Risk-free interest rate |
+| \sigma\ | Annualized volatility |
+| \T\ | Time to expiry |
+| \Z\ | Random variable from N(0,1) |
 
 **References**
 - Zerodha Varsity modules
