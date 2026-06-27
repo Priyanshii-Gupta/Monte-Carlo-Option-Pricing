@@ -24,12 +24,12 @@ It is a type of derivative.
 ## Decoding symbols
 | Symbol | Meaning |
 |---------|----------|
-| \S0\ | Current stock price |
-| \ST\ | Simulated future stock price |
-| \r\ | Risk-free interest rate |
-| \sigma\ | Annualized volatility |
-| \T\ | Time to expiry |
-| \Z\ | Random variable from N(0,1) |
+| **S0** | Current stock price |
+| **ST** | Simulated future stock price |
+| **r** | Risk-free interest rate |
+| **sigma** | Annualized volatility |
+| **T** | Time to expiry |
+| **Z** | Random variable from N(0,1) |
 
 **References**
 - Zerodha Varsity modules
